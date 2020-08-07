@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.1209
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "jogo-xadrez", "jogo-xadrez\jogo-xadrez.csproj", "{8678DD6F-CAE9-4E4F-9388-D4A13D85F08F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8678DD6F-CAE9-4E4F-9388-D4A13D85F08F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8678DD6F-CAE9-4E4F-9388-D4A13D85F08F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8678DD6F-CAE9-4E4F-9388-D4A13D85F08F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8678DD6F-CAE9-4E4F-9388-D4A13D85F08F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B265B98F-55EA-4A07-A712-1687171723B7}
+	EndGlobalSection
+EndGlobal
