@@ -7,12 +7,12 @@
         public int QtdMovimento { get; protected set; }
         public TabuleiroXadrez Tab { get; protected set; }
 
-        public Peca(Posicao posicao, Cor cor, TabuleiroXadrez tab)
+        public Peca(TabuleiroXadrez tab, Cor cor)
         {
-            Posicao = posicao;
-            Cor = cor;
             Tab = tab;
-            this.QtdMovimento = 0;
+            Cor = cor;
+            Posicao = null;
+            QtdMovimento = 0;
         }
     }
 }
