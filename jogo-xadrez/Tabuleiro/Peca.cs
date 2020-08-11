@@ -1,6 +1,6 @@
 ﻿namespace Tabuleiro
 {
-    class Peca
+    abstract class Peca
     {
         public Posicao Posicao { get; set; }
         public Cor Cor { get; protected set; }
@@ -13,6 +13,11 @@
             Cor = cor;
             Posicao = null;
             QtdMovimento = 0;
+        }
+
+        public void IncrementarQtdMovimentos()
+        {
+            QtdMovimento++;
         }
 
         public abstract bool[,] MovimentosPossiveis();
