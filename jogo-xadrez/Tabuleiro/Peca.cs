@@ -15,9 +15,6 @@
             QtdMovimento = 0;
         }
 
-        public void IncrementarQtdMovimentos()
-        {
-            QtdMovimento++;
-        }
+        public abstract bool[,] MovimentosPossiveis();
     }
 }
